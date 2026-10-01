@@ -1,0 +1,16 @@
+# Dependencies / build output
+node_modules/
+vendor/
+dist/
+
+# Environment files and local databases
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
